@@ -1,0 +1,6 @@
+framework module AppsSharedModule {
+    umbrella header "AppsSharedModule.h"
+
+    export *
+    module * { export * }
+}

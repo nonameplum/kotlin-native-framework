@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '11.0'
+
+use_modular_headers!
+#use_frameworks!
+
+target 'AppsSharedModuleApp' do
+	pod 'AppsSharedModule', :path => '../'
+	#pod 'AppsSharedModule', :git => 'https://github.com/nonameplum/kotlin-native-framework', :branch => 'main'
+end
