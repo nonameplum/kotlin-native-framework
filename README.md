@@ -6,7 +6,9 @@ Trying to make Multiplatform framework on separated repository from Android and 
 
 ---
 
-An example app that uses the framework via Cocoapods is inside `AppsSharedModuleApp` directory.
+An example app that uses the framework via Cocoapods is inside `AppsSharedModuleApp` directory:
 
-This branch has a flaw that `AppsSharedModuleApp` is using this remote pod and while building it fails with the error: `AppsSharedModule/gradlew: No such file or directory`
+`pod 'AppsSharedModule', :git => 'https://github.com/nonameplum/kotlin-native-framework.git', :branch => 'fixed_script'`
+
+This branch has a flaw that `AppsSharedModuleApp` can't be build with iOS Simulator but can be on the device. While building for the simulator it results with error: `/AppsSharedModule/AppsSharedModuleApp/Pods/AppsSharedModule/build/cocoapods/framework/AppsSharedModule.framework/AppsSharedModule, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64` 
 

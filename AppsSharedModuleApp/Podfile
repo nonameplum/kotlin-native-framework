@@ -7,5 +7,5 @@ use_modular_headers!
 
 target 'AppsSharedModuleApp' do
 	#pod 'AppsSharedModule', :path => '../'
-	pod 'AppsSharedModule', :git => 'https://github.com/nonameplum/kotlin-native-framework.git', :branch => 'main'
+	pod 'AppsSharedModule', :git => 'https://github.com/nonameplum/kotlin-native-framework.git', :branch => 'fixed_script'
 end
