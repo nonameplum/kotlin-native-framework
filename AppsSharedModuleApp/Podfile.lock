@@ -2,15 +2,21 @@ PODS:
   - AppsSharedModule (1.0.0)
 
 DEPENDENCIES:
-  - AppsSharedModule (from `../`)
+  - AppsSharedModule (from `https://github.com/nonameplum/kotlin-native-framework.git`, branch `main`)
 
 EXTERNAL SOURCES:
   AppsSharedModule:
-    :path: "../"
+    :branch: main
+    :git: https://github.com/nonameplum/kotlin-native-framework.git
+
+CHECKOUT OPTIONS:
+  AppsSharedModule:
+    :commit: ae82437d15c4a49ee19d40dd4a5fd30cdbf33e89
+    :git: https://github.com/nonameplum/kotlin-native-framework.git
 
 SPEC CHECKSUMS:
-  AppsSharedModule: 17b898138403e1b81acf7b19a65405cc5e3f403a
+  AppsSharedModule: 27a9e3fecf1937fc6664dc78ed15a703445c1ba0
 
-PODFILE CHECKSUM: e67a4febdc90dbfe59923c4343ba29f6d7554299
+PODFILE CHECKSUM: 7755fe04a6cc5571ef8594adff47aeedbb1f4143
 
 COCOAPODS: 1.9.3
